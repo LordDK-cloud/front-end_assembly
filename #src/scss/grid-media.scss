@@ -1,0 +1,149 @@
+@media(max-width:1400px){
+   .j-xxl-center {
+      justify-content: center;
+   }
+
+   .j-xxl-around {
+      justify-content: space-around;
+   }
+
+   .j-xxl-between {
+      justify-content: space-between;
+   }
+
+   .wrapper-xxl-col {
+      flex-direction: column;
+   }
+
+   .a-xxl-center {
+      align-items: center;
+   }
+
+   .a-xxl-start {
+      align-items: flex-start;
+   }
+
+   .a-xxl-end {
+      align-items: flex-end;
+   }
+}
+
+@media(max-width:1200px){
+   .j-xl-center {
+      justify-content: center;
+   }
+                  
+   .j-xl-around {
+      justify-content: space-around;
+   }
+
+   .j-xl-between {
+      justify-content: space-between;
+   }
+
+   .wrapper-xl-col {
+      flex-direction: column;
+   }
+
+   .a-xl-center {
+      align-items: center;
+   }
+
+   .a-xl-start {
+      align-items: flex-start;
+   }
+
+   .a-xl-end {
+      align-items: flex-end;
+   }
+}
+
+@media(max-width:991px){
+   .j-lg-center {
+      justify-content: center;
+   }
+
+   .j-lg-around {
+      justify-content: space-around;
+   }
+
+   .j-lg-between {
+      justify-content: space-between;
+   }
+
+   .wrapper-lg-col {
+      flex-direction: column;
+   }
+
+   .a-lg-center {
+      align-items: center;
+   }
+
+   .a-lg-start {
+      align-items: flex-start;
+   }
+
+   .a-lg-end {
+      align-items: flex-end;
+   }
+}
+
+@media(max-width:791px){
+   .j-md-center {
+      justify-content: center;
+   }
+
+   .j-md-around {
+      justify-content: space-around;
+   }
+
+   .j-md-between {
+      justify-content: space-between;
+   }
+
+   .wrapper-md-col {
+      flex-direction: column;
+   }
+
+   .a-md-center {
+      align-items: center;
+   }
+
+   .a-md-start {
+      align-items: flex-start;
+   }
+
+   .a-md-end {
+      align-items: flex-end;
+   }
+}
+
+@media(max-width:576px){
+   .j-sm-center {
+      justify-content: center;
+   }
+
+   .j-sm-around {
+      justify-content: space-around;
+   }
+
+   .j-sm-between {
+      justify-content: space-between;
+   }
+
+   .wrapper-sm-col {
+      flex-direction: column;
+   }
+
+   .a-sm-center {
+      align-items: center;
+   }
+
+   .a-sm-start {
+      align-items: flex-start;
+   }
+
+   .a-sm-end {
+      align-items: flex-end;
+   }
+}

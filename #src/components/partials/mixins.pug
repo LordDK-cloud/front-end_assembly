@@ -1,0 +1,8 @@
+mixin icon(name)
+	svg(class="icon svg-" + name + '-dims')
+		use(xlink:href="svgSprite/sprite.svg#" + name)
+
+mixin webp(name,format,alt)
+	picture 
+		source(srcset="images/" + name + ".webp" type="image/webp")
+		img(class=clas src="images/" + name + "." + format alt=alt)
