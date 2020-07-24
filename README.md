@@ -3,7 +3,7 @@
 * ### Pug, pug-linter
 * ### sass/scss, autoprefixer, gulp-group-css-media-queries(для склеивания медиа запросов), gulp-clean-css, 
 * ### browser-sync,
-* ### gulp-rename(создание в конечную папку не сжатую версию css and js),
+* ### gulp-rename(для переименовывания на .min.css/js),
 * ### gulp-sourcemaps(просмтор карты стилей), gulp-size(показывает размеры файлов в консоли, особенно прикольно видеть результаты минификации изображений),
 * ### gulp-babel, gulp-terser, 
 * ### gulp-webp,gulp-webp-css,
