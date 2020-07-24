@@ -29,7 +29,7 @@ npm i  gulp-file-include --save-dev
 
 Затем создаем переменную в gulpfile.js:
 
-let gulpInclude = =  require('gulp-file-include');
+let gulpInclude = require('gulp-file-include');
 
 Затем в таске html вместо
 .pipe(pugLinter())
