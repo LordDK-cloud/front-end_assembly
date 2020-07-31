@@ -1,8 +1,24 @@
-mixin icon(name)
-	svg(class="icon svg-" + name + '-dims')
+mixin icon(name,uniqueClass)
+	svg(class="icon svg-" + name + '-dims' + " " + uniqueClass)
+		use(xlink:href="svgSprite/sprite.svg#" + name)
+
+mixin iconImg(name,uniqueClass,ariaLabel)
+	svg(class="icon svg-" + name + '-dims' + " " + uniqueClass role="image" aria-label=ariaLabel)
 		use(xlink:href="svgSprite/sprite.svg#" + name)
 
 mixin webp(name,format,alt)
 	picture 
 		source(srcset="images/" + name + ".webp" type="image/webp")
-		img(class=clas src="images/" + name + "." + format alt=alt)
+		img(class=name src="images/" + name + "." + format alt=alt)
+
+mixin webpRetina(name,format,alt)
+	picture 
+		source(srcset="images/" + name + ".webp 1x," + " images/" + name + "@2x" + ".webp" + " 2x" type="image/webp")
+		img(class=name src="images/" + name + "." + format srcset="images/" + name + "@2x" + "." + format + " 2x" alt=alt)
+
+mixin webpMedia(name,format,alt,media)
+	picture 
+		source(srcset="images/" + name + ".webp" type="image/webp" media=media)
+		source(srcset="images/" + name + format media=media)
+		source(srcset="images/" + name + ".webp" type="image/webp")
+		img(class=name src="images/" + name + "." + format alt=alt)
